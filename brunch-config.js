@@ -12,7 +12,19 @@ module.exports = {
       joinTo: {'app.js': /^app\/templates/}
     }
   },
+  npm: {
+    globals: {
+      $: 'jquery',
+      Marionette: 'backbone.marionette',
+      Backbone: 'backbone'
+    }
+  },
   plugins: {
-    babel: {presets: ['es2015']}
+    babel: {
+      presets: ['es2015'],
+      ignore: [
+        /^(node_modules)/
+      ]
+    }
   }
 };
