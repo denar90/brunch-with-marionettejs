@@ -1,6 +1,6 @@
-# Brunch + MarionetteJS + Babel/ES6
+# Brunch + Marionette.js + Babel/ES6
 
-This is a modern JS skeleton with MarionetteJS for [Brunch](http://brunch.io).
+This is a modern JS skeleton with [Marionette.js](http://marionettejs.com/) for [Brunch](http://brunch.io).
 
 ## Installation
 
