@@ -6,9 +6,10 @@ module.exports = {
         'app.js': /^app/
       }
     },
-    stylesheets: {joinTo: 'app.css'},
+    stylesheets: {
+      joinTo: 'app.css'
+    },
     templates: {
-      defaultExtension: 'jst',
       joinTo: {'app.js': /^app\/templates/}
     }
   },
@@ -25,6 +26,18 @@ module.exports = {
       ignore: [
         /^(node_modules)/
       ]
+    },
+    swPrecache: {
+      autorequire: true,
+      options: {
+        staticFileGlobs: [
+          'public/app.css',
+          'public/vendor.js',
+          'public/app.js',
+          'public/index.html'
+        ],
+        stripPrefix: 'public'
+      }
     }
   }
 };
