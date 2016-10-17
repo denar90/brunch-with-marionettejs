@@ -1,6 +1,6 @@
 # Brunch + Marionette.js + Babel/ES6 PWA
 
-This is a modern Progressive Web App (https://developers.google.com/web/progressive-web-apps/) JS skeleton with [Marionette.js](http://marionettejs.com/) for [Brunch](http://brunch.io).
+This is a modern Progressive Web App JS skeleton with [Marionette.js](http://marionettejs.com/) for [Brunch](http://brunch.io).
 
 ## Installation
 
@@ -28,8 +28,9 @@ There are also added offline feature using [sw-precache](https://github.com/Goog
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
     * [Marionette.js site](http://marionettejs.com/)
-    * [What is Service worker ?](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
-    * [What is Web App Manifest ?](https://developers.google.com/web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android?hl=en)
+    * [What is Progressive Web App?](https://developers.google.com/web/progressive-web-apps/)
+    * [What is Service worker?](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
+    * [What is Web App Manifest?](https://developers.google.com/web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android?hl=en)
 
     
     

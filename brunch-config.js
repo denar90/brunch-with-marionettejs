@@ -28,14 +28,9 @@ module.exports = {
       ]
     },
     swPrecache: {
-      autorequire: true,
+      autorequire: ['public/index.html'],
       options: {
-        staticFileGlobs: [
-          'public/app.css',
-          'public/vendor.js',
-          'public/app.js',
-          'public/index.html'
-        ],
+        staticFileGlobs: ['public/**/!(*map*)'],
         stripPrefix: 'public'
       }
     }

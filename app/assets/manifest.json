@@ -1,5 +1,5 @@
 {
-  \\"short_name\\": "Marionette.js pwa",
+  "short_name": "Marionette.js pwa",
   "name": "Marionette.js skeleton for Brunch PWA",
   "icons": [
     {
