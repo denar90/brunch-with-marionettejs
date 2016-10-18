@@ -2,15 +2,15 @@ module.exports = {
   files: {
     javascripts: {
       joinTo: {
-        'vendor.js': /^(?!app)/,
-        'app.js': /^app/
+        'js/vendor.js': /^(?!app)/,
+        'js/app.js': /^app/
       }
     },
     stylesheets: {
-      joinTo: 'app.css'
+      joinTo: 'css/app.css'
     },
     templates: {
-      joinTo: {'app.js': /^app\/templates/}
+      joinTo: {'js/app.js': /^app\/templates/}
     }
   },
   npm: {
@@ -31,7 +31,7 @@ module.exports = {
       autorequire: ['public/index.html'],
       options: {
         staticFileGlobs: ['public/**/!(*map*)'],
-        stripPrefix: 'public'
+        stripPrefix: 'public/'
       }
     }
   }

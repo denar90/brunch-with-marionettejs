@@ -1,6 +1,6 @@
 {
   "short_name": "Marionette.js pwa",
-  "name": "Marionette.js skeleton for Brunch PWA",
+  "name": "Marionette.js Progressive Web App skeleton for Brunch",
   "icons": [
     {
       "src": "favicon.ico",
