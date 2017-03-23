@@ -57,4 +57,11 @@ app appears to the user in the areas that they would expect to see apps. [More](
 It's hosted on gh-pages - https://denar90.github.io/brunch-with-marionettejs/
 > Don't forget to go offline and see what happens
 
+## 100% PWA !!!
+
+[Lighthouse](https://github.com/GoogleChrome/lighthouse/) report 
+
+![lighthouse report https denar90 github io brunch-with-marionettejs](https://cloud.githubusercontent.com/assets/6231516/24273098/2f55ec76-1029-11e7-9650-3e3add82d279.png)
+
+
 P.S. Inspired by [@jeffposnick](https://github.com/jeffposnick) - https://github.com/jeffposnick/create-react-pwa/blob/master/README.md
