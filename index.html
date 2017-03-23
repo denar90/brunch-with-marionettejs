@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#3f894a">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Brunch with Marionette.js</title>
+  <script src="js/vendor.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      require('initialize');
+    });
+  </script>
+</head>
+<body>
+  <div id="content">
+    <noscript>
+      <a href="https://www.google.com/chrome/browser/desktop/">You&apos;d better download Chrome browser :)</a>
+    </noscript>
+    <h1>&#xA0;</h1>
+    <h2>Welcome!</h2>
+    <div id="app"></div>
+  </div>
+</body>
+<script src="sw.js"></script>
+<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js')</script>
+</html>
