@@ -1,6 +1,8 @@
 {
-  "short_name": "Marionette.js pwa",
+  "short_name": "Mn PWA",
   "name": "Marionette.js Progressive Web App skeleton for Brunch",
+  "background_color": "#3f894a",
+  "theme_color": "#3f894a",
   "icons": [
     {
       "src": "favicon.ico",
